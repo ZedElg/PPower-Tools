@@ -2,7 +2,7 @@
 
 A PowerPoint add in that adds a custom Ribbon with consulting style productivity tools, built in VBA.
 
-<img width="1491" height="179" alt="Screenshot_PPower-Tools" src="https://github.com/user-attachments/assets/a34f4ae9-2f37-4f55-97d4-77408165b280" />
+<img width="1491" height="179" alt="Screenshot_PPower-Tools" src="https://github.com/user-attachments/assets/d4d08880-81f5-4a82-bb82-81c985ed0a73" />
 
 ---
 
