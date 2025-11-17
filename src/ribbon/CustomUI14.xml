@@ -1,0 +1,85 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="ZTab_v07" label="PPower-Tools">
+        <group id="TextboxGroup" label="Text Boxes">
+          <button id="convertShapesButton" label="Convert Shapes to Text Boxes" 
+                  onAction="ConvertSelectedShapesToTextBoxes"
+                  imageMso="TextBoxInsert" size="large" />
+          <button id="replaceTextDots" label="Replace Text to Dots" 
+                  onAction="ReplaceTextInSelectedShapes"
+                  imageMso="ToolbarTypeMenu" size="large" />
+          <button id="resizeShapesButton" label="Resize Shapes to Fit Text" 
+                  onAction="ResizeShapesToFitText"
+                  imageMso="ShapeHeight" size="large" />
+          <button id="setMarginsZero" label="Set Box Margins to Zero" 
+                  onAction="SetTextBoxMarginsToZero"
+                  imageMso="TextBoxMargins" size="large" />
+          <button id="MergeTextBoxes" label="Merge Text Boxes" 
+                  onAction="MergeTextBoxes"
+                  imageMso="MenuTaskWellArrange" size="large" />
+          <button id="SplitTextBoxes" label="Split Text Box" 
+                  onAction="SplitTextBoxes"
+                  imageMso="WindowSplit" size="large" />
+           <button id="InsertFootnote" label="Insert Footnote" 
+                  onAction="InsertFootnote"
+                  imageMso="FooterInsertGallery" size="large" />                 
+        </group>
+        <group id="ObjectGroup" label="Insert Objects">
+          <button id="HarveyBall" label="Add Harvey Ball" 
+                  onAction="HarveyBall"
+                  imageMso="Drawing1GalleryContrast" size="large" />
+          <button id="ToggleHarveyBall" label="Toggle Harvey Ball" 
+                  onAction="ToggleHarveyBall"
+                  imageMso="_75PercentComplete" size="large" />
+          <button id="CreateChevronSequence" label="Insert Chevrons" 
+                  onAction="CreateChevronSequence"
+                  imageMso="ConvertToSmartArt" size="large" />
+          <button id="AddHorizontalLine" label="Add Line" 
+                  onAction="AddHorizontalLine"
+                  imageMso="ControlSpecialEffectChiseled" size="large" />
+          <button id="StraightenLines" label="Straighten Line" 
+                  onAction="StraightenLines"
+                  imageMso="DrawLine" size="large" />
+          <button id="MakeShapesSameSize" label="Make same Size" 
+                  onAction="MakeShapesSameSize"
+                  imageMso="Baseline" size="large" />
+          <button id="MakeShapesSameWidth" label="Same Width" 
+                  onAction="MakeShapesSameWidth"
+                  imageMso="SizeToControlWidth" size="large" />
+          <button id="MakeShapesSameHeight" label="Same Height" 
+                  onAction="MakeShapesSameHeight"
+                  imageMso="SizeToControlHeight" size="large" />
+        </group>
+        <group id="HandleObjects" label="Handle Objects">
+          <button id="SelectSimilarShapes" label="Select Similar Shapes" 
+                  onAction="SelectSimilarShapes"
+                  imageMso="ObjectsMultiSelect" size="large" />
+          <button id="SelectShapesWithSameSize" label="Select Shapes with same Size" 
+                  onAction="SelectShapesWithSameSize"
+                  imageMso="DiagramStylesClassic" size="large" />
+          <button id="swapPositionsButton" label="Swap Positions" 
+                  onAction="SwapPositionsOfTwoObjects"
+                  imageMso="PictureSwapTwoPicture" size="large" />
+          <button id="AlignShapesToCenterAndMiddle" label="Align and Center" 
+                  onAction="AlignShapesToCenterAndMiddle"
+                  imageMso="CellStylesMerge" size="large" />
+          <button id="GroupByRows" label="Group by Rows" 
+                  onAction="GroupByRows"
+                  imageMso="InsertRows" size="large" />
+          <button id="GroupByColumns" label="Group by Columns" 
+                  onAction="GroupByColumns"
+                  imageMso="InsertColumn3" size="large" />
+        </group>
+        <group id="OtherGroup" label="Other">
+          <button id="CreateSticky" label="Insert Sticky" 
+                  onAction="CreateSticky"
+                  imageMso="ResourceNotes" size="large" />
+            <button id="ShowShortcutPopup" label="Show Shortcuts" 
+                  onAction="ShowShortcutPopup"
+                  imageMso="Help" size="large" />                
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
